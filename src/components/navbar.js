@@ -1,9 +1,9 @@
-import { Link, Navbar } from '@nextui-org/react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const nav = () => {
   return (
-    <Navbar className='navbar'>
+    <nav className='navbar'>
       <Link href='#'>
         <Image
           src='/side-logo.png'
@@ -18,7 +18,7 @@ const nav = () => {
         <Link href='#'>Press</Link>
         <Link href='#'>Contact Us</Link>
       </div>
-    </Navbar>
+    </nav>
   );
 };
 
