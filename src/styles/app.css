@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nextui-navbar-container {
+    background: #1a1a1af4;
+}
+
+html, .navbar {
+    background: #1a1a1af4;
+}
