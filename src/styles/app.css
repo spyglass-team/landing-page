@@ -1,29 +1,30 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: sans-serif;
 }
 
 /* navbar styling */
 .navbar {
-    padding: 1rem 4rem;
+    padding: 2rem 3rem;
+    width: 100%;
+    position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #1a1a1af4;
+    background: #1a1a1a;
 }
 
 .navbar a {
     text-decoration: none;
     color: white;
-    margin-right: 1rem;
+    margin: 0 1.5rem;
     font-size: 1.5rem;
-    padding: 0 0.5rem;
 }
 
 .navbar a:hover {
 	color:  #0074d9;
-    font-size: 1.7rem;
 }
 /* content in layout component styling */
 .content {
@@ -32,7 +33,8 @@
 
 /* footer styling */
 .footer {
-    display: block;
-    font-size: 0.8rem;
+    font-size: 1.5rem;
+    color: white;
     text-align: center;
+    background: #1a1a1a;
 }

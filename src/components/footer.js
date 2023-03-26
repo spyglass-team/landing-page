@@ -1,8 +1,4 @@
 const Footer = () => {
-  return (
-    <div className='footer'>
-      <h1>Copyright @2023 Spyglass</h1>
-    </div>
-  );
+  return <footer className='footer'>Copyright @2023 Spyglass</footer>;
 };
 export default Footer;

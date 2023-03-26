@@ -8,8 +8,8 @@ const Navbar = () => {
         <Image
           src='/side-logo.png'
           alt='spyglass-logo'
-          width='250'
-          height='50'
+          width='300'
+          height='60'
         />
       </Link>
       <div>
