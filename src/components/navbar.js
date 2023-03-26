@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-const nav = () => {
+const Navbar = () => {
   return (
     <nav className='navbar'>
       <Link href='#'>
@@ -14,12 +14,11 @@ const nav = () => {
       </Link>
       <div>
         <Link href='https://github.com/oslabs-beta/spyglass'>Github</Link>
-        <Link href='#'>LinkedIn</Link>
         <Link href='#'>Press</Link>
-        <Link href='#'>Contact Us</Link>
+        <Link href='/contact'>Contact Us</Link>
       </div>
     </nav>
   );
 };
 
-export default nav;
+export default Navbar;

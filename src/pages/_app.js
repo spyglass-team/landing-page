@@ -1,11 +1,11 @@
-import { NextUIProvider } from '@nextui-org/react';
+import Layout from '@/components/layout';
 import '../styles/app.css';
 
 const app = ({ Component, pageProps }) => {
   return (
-    <NextUIProvider>
+    <Layout>
       <Component {...pageProps} />
-    </NextUIProvider>
+    </Layout>
   );
 };
 

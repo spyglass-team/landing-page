@@ -1,12 +1,38 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
-.nextui-navbar-container {
+/* navbar styling */
+.navbar {
+    padding: 1rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background: #1a1a1af4;
 }
 
-html, .navbar {
-    background: #1a1a1af4;
+.navbar a {
+    text-decoration: none;
+    color: white;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    padding: 0 0.5rem;
+}
+
+.navbar a:hover {
+	color:  #0074d9;
+    font-size: 1.7rem;
+}
+/* content in layout component styling */
+.content {
+    margin: 0 auto;
+}
+
+/* footer styling */
+.footer {
+    display: block;
+    font-size: 0.8rem;
+    text-align: center;
 }
