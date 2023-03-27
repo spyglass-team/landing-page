@@ -6,9 +6,9 @@ const Navbar = () => {
     <nav className='navbar'>
       <Link href='/'>
         <Image
-          src='/logo-word-only.png'
+          src='/side-logo.png'
           alt='spyglass-logo'
-          width='300'
+          width='330'
           height='60'
         />
       </Link>

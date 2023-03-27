@@ -1,9 +1,19 @@
 /* styling for container of home page*/
 .container {
     min-height: 100vh;
-    padding: 0 0.5rem;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
+}
+
+.h1 {
+    color: white;
+    width: 70%;
+    font-size: 50px;
+}
+
+.h1 span {
+    color: #0074d9;
+    width: 70%;
+    font-size: 80px;
 }

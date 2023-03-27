@@ -6,14 +6,14 @@ const Animation = () => {
     <>
       <motion.div
         animate={{ rotate: 360 }}
-        transition={{ ease: 'linear', duration: 10, repeat: Infinity }}
         whileHover={{ rotate: -360 }}
+        transition={{ duration: 2 }}
       >
         <Image
-          src='/logo-no-bg.png'
+          src='/Kubernetes.png'
           alt='spyglass-logo'
-          width='320'
-          height='280'
+          width='300'
+          height='300'
         />
       </motion.div>
     </>
