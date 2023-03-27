@@ -1,4 +1,4 @@
-/* styling for container of home page*/
+/* styling for features on the home page */
 .container {
     min-height: 100vh;
     padding: 0 10rem;
@@ -8,14 +8,21 @@
     align-items: center;
 }
 
-/* .h1 {
+.imageContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.h1 {
     color: white;
-    width: 70%;
-    font-size: 35px;
+    font-size: 30px;
+    width: 33%;
+    text-align: center;
 }
 
 .h1 span {
     color: #0074d9;
-    width: 70%;
-    font-size: 55px;
-} */
+    font-size: 30px;
+} 
