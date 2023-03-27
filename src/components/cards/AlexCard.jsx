@@ -1,20 +1,21 @@
+import * as React from 'react';
 import { Card } from '@nextui-org/react';
 import Image from 'next/image';
 import Link from 'next/link';
 
-const EastonCard = () => {
+const AlexCard = () => {
   return (
     <Card style={{ maxWidth: '300px', margin: 'auto', padding: '5px' }}>
       <Card.Body>
         <Image
-          src='/easton.png'
-          alt='easton-picture'
+          src='/alex.png'
+          alt='alex-picture'
           height='250'
           width='250'
           style={{ margin: 'auto' }}
         />
         <br />
-        <h1>Easton Miller</h1>
+        <h1>Alex Czaja</h1>
         <h2>Software Engineer</h2>
         <br />
         <div
@@ -23,11 +24,11 @@ const EastonCard = () => {
           }}
         >
           <div style={{ marginRight: '10px' }}>
-            <Link href='https://github.com/jEastonMiller'>
+            <Link href='https://github.com/aczaja85'>
               <Image src='/github.svg' alt='github' height='60' width='60' />
             </Link>
           </div>
-          <Link href='https://www.linkedin.com/in/j-easton-miller/'>
+          <Link href='https://www.linkedin.com/in/alex-czaja/'>
             <Image src='/linkedin.svg' alt='linkedin' height='60' width='60' />
           </Link>
         </div>
@@ -35,4 +36,4 @@ const EastonCard = () => {
     </Card>
   );
 };
-export default EastonCard;
+export default AlexCard;

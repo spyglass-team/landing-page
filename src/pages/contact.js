@@ -1,3 +1,4 @@
+import * as React from 'react';
 import Head from 'next/head';
 import styles from '../styles/Contact.module.css';
 import CindyCard from '../components/cards/CindyCard';
