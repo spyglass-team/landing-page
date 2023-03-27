@@ -6,12 +6,6 @@ const Features = () => {
   return (
     <div className={styles.container}>
       <Image
-        src='/demo-gifs/cluster-visualizer.gif'
-        alt='cluster-visualizer-gif'
-        width='800'
-        height='400'
-      />
-      <Image
         src='/demo-gifs/local-cluster-metrics.gif'
         alt='local-cluster-metrics-gif'
         width='800'
@@ -20,6 +14,12 @@ const Features = () => {
       <Image
         src='/demo-gifs/cost-analysis.gif'
         alt='cost-analysis-gif'
+        width='800'
+        height='400'
+      />
+      <Image
+        src='/demo-gifs/visualizer.gif'
+        alt='cluster-visualizer-gif'
         width='800'
         height='400'
       />
