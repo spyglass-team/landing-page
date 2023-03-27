@@ -1,4 +1,4 @@
-{"extends": ["next","plugin:react/recommended"]}
+{ "extends": ["next","plugin:react/recommended"], "rules": {"react/prop-types": "off"}}
 // {
 //   "extends": "next/core-web-vitals"
 // }
