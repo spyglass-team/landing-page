@@ -1,6 +1,7 @@
 import * as React from 'react';
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
+import Animation from '@/components/Animation';
 
 const Home = () => {
   return (
@@ -9,7 +10,9 @@ const Home = () => {
         <title>Spyglass | Home </title>
         <meta name='keywords' content='Kubernetes'></meta>
       </Head>
-      <div className={styles.container}></div>
+      <div className={styles.container}>
+        <Animation />
+      </div>
     </>
   );
 };
