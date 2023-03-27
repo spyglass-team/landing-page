@@ -5,7 +5,7 @@ https://github.com/oslabs-beta/spyglass
 
 <div align="center">
 
-## [![banner](/assets/banner.png)](https://github.com/oslabs-beta/spyglass)
+## [![banner](/public/banner.png)](https://github.com/oslabs-beta/spyglass)
 <!-- https://ileriayo.github.io/markdown-badges/#markdown-badges -->
 [![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)](https://reactjs.org/)
 [![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
