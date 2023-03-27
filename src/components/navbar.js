@@ -4,9 +4,9 @@ import Link from 'next/link';
 const Navbar = () => {
   return (
     <nav className='navbar'>
-      <Link href='#'>
+      <Link href='/'>
         <Image
-          src='/side-logo.png'
+          src='/logo-word-only.png'
           alt='spyglass-logo'
           width='300'
           height='60'

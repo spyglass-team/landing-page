@@ -1,8 +1,15 @@
+import Head from 'next/head';
+import styles from '../styles/Contact.module.css';
+
 const contact = () => {
   return (
-    <div>
-      <h1>About us</h1>
-    </div>
+    <>
+      <Head>
+        <title>Spyglass | Contact Us </title>
+        <meta name='keywords' content='Kubernetes'></meta>
+      </Head>
+      <div className={styles.container}></div>
+    </>
   );
 };
 

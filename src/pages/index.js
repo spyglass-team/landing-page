@@ -1,11 +1,16 @@
 import * as React from 'react';
+import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 
 const Home = () => {
   return (
-    <div className={styles.container}>
-      <h1>Home page</h1>
-    </div>
+    <>
+      <Head>
+        <title>Spyglass | Home </title>
+        <meta name='keywords' content='Kubernetes'></meta>
+      </Head>
+      <div className={styles.container}></div>
+    </>
   );
 };
 
