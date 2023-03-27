@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import styles from '../styles/Contact.module.css';
+import ContactCard from '@/components/ContactCard';
 
 const contact = () => {
   return (
@@ -8,7 +9,9 @@ const contact = () => {
         <title>Spyglass | Contact Us </title>
         <meta name='keywords' content='Kubernetes'></meta>
       </Head>
-      <div className={styles.container}></div>
+      <div className={styles.container}>
+        <ContactCard />
+      </div>
     </>
   );
 };

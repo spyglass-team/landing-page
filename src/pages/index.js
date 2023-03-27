@@ -13,13 +13,13 @@ const Home = () => {
       <div className={styles.container}>
         <h1 className={styles.h1}>
           <span>EMPOWER YOUR KUBERNETES NEEDS WITH SPYGLASS!</span>
-          {/* <span>Empower your Kubernetes needs with Spyglass.</span> */}
           <br />
           <br />
           We are a one-stop shop for cluster health metrics, cluster
           visualization, and cost optimization.
         </h1>
         <Animation />
+        <h1></h1>
       </div>
     </>
   );
