@@ -1,9 +1,9 @@
 import Head from 'next/head';
 import styles from '../styles/Contact.module.css';
-import CindyCard from '@/components/cards/CindyCard';
-import AlexCard from '@/components/cards/AlexCard';
-import EastonCard from '@/components/cards/EastonCard';
-import AnthonyCard from '@/components/cards/AnthonyCard';
+import CindyCard from '../components/cards/CindyCard';
+import AlexCard from '../components/cards/AlexCard';
+import EastonCard from '../components/cards/EastonCard';
+import AnthonyCard from '../components/cards/AnthonyCard';
 
 const contact = () => {
   return (
