@@ -9,7 +9,7 @@ body {
 }
 /* navbar styling */
 .navbar {
-    padding: 0.5rem 2rem;
+    padding: 1rem 2rem;
     width: 100%;
     top: 0; 
     left: 0;
@@ -34,7 +34,7 @@ body {
 /* footer styling */
 .footer {
     font-size: 1.1rem;
-    padding: 2rem;
+    padding: 4rem;
     color: #0074d9;
     text-align: center;
 }

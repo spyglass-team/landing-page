@@ -3,11 +3,12 @@
     min-height: 100vh;
     padding: 0 10rem;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.h1 {
+/* .h1 {
     color: white;
     width: 70%;
     font-size: 35px;
@@ -17,4 +18,4 @@
     color: #0074d9;
     width: 70%;
     font-size: 55px;
-}
+} */
