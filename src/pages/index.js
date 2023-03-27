@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
-import Animation from '@/components/Animation';
+import Animation from '../components/Animation';
 
 const Home = () => {
   return (
