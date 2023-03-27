@@ -1,7 +1,7 @@
 /* styling for container of contact us page*/
 .container {
     min-height: 100vh;
-    padding: 0 10rem;
+    padding: 0 5rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
