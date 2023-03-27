@@ -1,8 +1,9 @@
 /* styling for container of contact us page*/
 .container {
     min-height: 100vh;
-    padding: 0 0.5rem;
+    padding: 0 10rem;
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    /* justify-content: center; */
     align-items: center;
 }
