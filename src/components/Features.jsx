@@ -16,8 +16,8 @@ const Features = () => {
           className={styles.gif}
           src='/demo-gifs/local-cluster-metrics.gif'
           alt='local-cluster-metrics-gif'
-          width='850'
-          height='400'
+          width='700'
+          height='350'
         />
       </div>
       {/* cost analysis */}
@@ -30,8 +30,8 @@ const Features = () => {
           className={styles.gif}
           src='/demo-gifs/cost-analysis.gif'
           alt='cost-analysis-gif'
-          width='850'
-          height='400'
+          width='700'
+          height='350'
         />
       </div>
       {/* cluster visualization */}
@@ -44,8 +44,8 @@ const Features = () => {
           className={styles.gif}
           src='/demo-gifs/visualizer.gif'
           alt='cluster-visualizer-gif'
-          width='850'
-          height='400'
+          width='700'
+          height='350'
         />
       </div>
     </div>
