@@ -1,6 +1,6 @@
 ## Spyglass 
 
-This is the static website for Spyglass. Please checkout our open-source tool to learn more about Kubernetes cluster metrics, cluster visualization, and cost optimization.
+This is the static website for Spyglass. Please checkout our open-source tool to learn more about Kubernetes cluster metrics, cluster visualization, and cost optimization!
 
 https://github.com/oslabs-beta/spyglass
 
