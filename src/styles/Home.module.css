@@ -2,18 +2,19 @@
 .container {
     min-height: 100vh;
     display: flex;
+    padding: 0 20rem;
     justify-content: center;
     align-items: center; 
 }
 
 .h1 {
     color: white;
-    width: 70%;
-    font-size: 50px;
+    width: 80%;
+    font-size: 40px;
 }
 
 .h1 span {
     color: #0074d9;
-    width: 70%;
-    font-size: 80px;
+    width: 80%;
+    font-size: 60px;
 }

@@ -9,7 +9,7 @@ body {
 }
 /* navbar styling */
 .navbar {
-    padding: 1.2rem 3rem;
+    padding: 1rem 3rem;
     width: 100%;
     position: fixed;
     display: flex;
@@ -22,8 +22,8 @@ body {
 .navbar a {
     text-decoration: none;
     color: white;
-    margin: 0 1.5rem;
-    font-size: 1.5rem;
+    margin: 0 1.3rem;
+    font-size: 1.3rem;
 }
 
 .navbar a:hover {
@@ -32,7 +32,7 @@ body {
 
 /* footer styling */
 .footer {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     padding: 2rem;
     color: #0074d9;
     text-align: center;
