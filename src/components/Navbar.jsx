@@ -21,18 +21,16 @@ const Navbar = () => {
         <Link href='https://github.com/oslabs-beta/spyglass'>Github</Link>
         <Link href='#'>Press</Link>
         <Link href='/contact'>Contact Us</Link>
-        <div className='github-star-container'>
+        <Link href='https://github.com/oslabs-beta/spyglass' legacyBehavior>
           <a
             className='github-button'
-            href='https://github.com/oslabs-beta/spyglass'
-            data-icon='octicon-star'
-            data-size='large'
             data-show-count='true'
+            data-size='large'
             aria-label='Star oslabs-beta/spyglass on GitHub'
           >
             Star
           </a>
-        </div>
+        </Link>
       </div>
     </nav>
   );
