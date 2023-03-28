@@ -15,8 +15,8 @@ const EastonCard = () => {
           style={{ margin: 'auto' }}
         />
         <br />
-        <h1>Easton Miller</h1>
-        <h2>Software Engineer</h2>
+        <h2>Easton Miller</h2>
+        <h3>Software Engineer</h3>
         <br />
         <div
           style={{

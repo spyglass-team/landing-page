@@ -15,8 +15,8 @@ const AlexCard = () => {
           style={{ margin: 'auto' }}
         />
         <br />
-        <h1>Alex Czaja</h1>
-        <h2>Software Engineer</h2>
+        <h2>Alex Czaja</h2>
+        <h3>Software Engineer</h3>
         <br />
         <div
           style={{
