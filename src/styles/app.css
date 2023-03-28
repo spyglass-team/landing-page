@@ -9,7 +9,7 @@ body {
 }
 /* navbar styling */
 .navbar {
-    padding: 1rem 2rem;
+    padding: 0.5rem 1rem;
     width: 100%;
     top: 0; 
     left: 0;
@@ -23,8 +23,8 @@ body {
 .navbar a {
     text-decoration: none;
     color: white;
-    margin: 0 2rem;
-    font-size: 1.3rem;
+    margin: 0 1rem;
+    font-size: 1.1rem;
 }
 
 .navbar a:hover {
