@@ -2,7 +2,9 @@
 
 This is the static website for Spyglass. Please checkout our open-source tool to learn more about Kubernetes cluster metrics, cluster visualization, and cost optimization!
 
-https://github.com/oslabs-beta/spyglass
+Check out our website: https://spyglass-website.vercel.app/
+
+Check out our Github repo: https://github.com/oslabs-beta/spyglass
 
 <div align="center">
 
