@@ -11,10 +11,10 @@ const Animation = () => {
         transition={{ duration: 2 }}
       >
         <Image
-          src='/Kubernetes.png'
-          alt='spyglass-logo'
-          width='300'
-          height='300'
+          src="/Kubernetes.png"
+          alt="spyglass-logo"
+          width="300"
+          height="300"
         />
       </motion.div>
     </>
