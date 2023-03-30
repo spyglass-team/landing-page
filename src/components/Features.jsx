@@ -37,8 +37,8 @@ const Features = () => {
       {/* cluster visualization */}
       <div className={styles.imageContainer}>
         <h1 className={styles.h1}>
-          Visualize Kubernetes cluster and its resources, including pods,
-          services, and deployment, using <span>Kubeview.</span>
+          Visualize Kubernetes cluster and its resources using{' '}
+          <span>Kubeview.</span>
         </h1>
         <Image
           className={styles.gif}
