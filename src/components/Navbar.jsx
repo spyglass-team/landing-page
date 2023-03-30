@@ -19,7 +19,9 @@ const Navbar = () => {
       </Link>
       <div>
         <Link href='https://github.com/oslabs-beta/spyglass'>Github</Link>
-        <Link href='#'>Press</Link>
+        <Link href='https://medium.com/@spyglassopensource/b94503c51bf3'>
+          Press
+        </Link>
         <Link href='/contact'>Contact Us</Link>
         <Link href='https://github.com/oslabs-beta/spyglass' legacyBehavior>
           <a
