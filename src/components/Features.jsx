@@ -8,14 +8,29 @@ const Features = () => {
       {/* local cluster metrics */}
       <div className={styles.imageContainer}>
         <h1 className={styles.h1}>
-          Monitor Kubernetes cluster health metrics in real-time using{' '}
-          <span>Grafana.</span>
+          Monitor local cluster health metrics in real-time using{' '}
+          <span>Grafana and Prometheus.</span>
         </h1>
         <h2 className={styles.h2}></h2>
         <Image
           className={styles.gif}
           src='/demo-gifs/local-cluster-metrics.gif'
           alt='local-cluster-metrics-gif'
+          width='700'
+          height='350'
+        />
+      </div>
+      {/* cloud cluster metrics */}
+      <div className={styles.imageContainer}>
+        <h1 className={styles.h1}>
+          Monitor cloud-based cluster health metrics in real-time using{' '}
+          <span>Grafana and Prometheus.</span>
+        </h1>
+        <h2 className={styles.h2}></h2>
+        <Image
+          className={styles.gif}
+          src='/demo-gifs/cloud-cluster-metrics.gif'
+          alt='cloud-cluster-metrics-gif'
           width='700'
           height='350'
         />
