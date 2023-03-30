@@ -13,7 +13,7 @@ const Home = () => {
       </Head>
       <div className={styles.container}>
         <h1 className={styles.h1}>
-          <span>EMPOWER YOUR KUBERNETES NEEDS WITH SPYGLASS!</span>
+          <span>KUBERNETES JUST GOT A WHOLE LOT CLEARER WITH SPYGLASS!</span>
           <br />
           <br />
           We are a one-stop shop for cluster health metrics, cluster
