@@ -5,30 +5,31 @@ import Head from 'next/head';
 
 const Navbar = () => {
   return (
-    <nav className='navbar'>
+    <nav className="navbar">
       <Head>
-        <script async defer src='https://buttons.github.io/buttons.js'></script>
+        <script async defer src="https://buttons.github.io/buttons.js"></script>
       </Head>
-      <Link href='/'>
+      <Link href="/">
         <Image
-          src='/side-logo.png'
-          alt='spyglass-logo'
-          width='330'
-          height='60'
+          src="/side-logo.png"
+          alt="spyglass-logo"
+          width="330"
+          height="60"
+          className="navLogo"
         />
       </Link>
-      <div>
-        <Link href='https://github.com/oslabs-beta/spyglass'>Github</Link>
-        <Link href='https://medium.com/@spyglassopensource/b94503c51bf3'>
+      <div className="navLinks">
+        <Link href="https://github.com/oslabs-beta/spyglass">Github</Link>
+        <Link href="https://medium.com/@spyglassopensource/b94503c51bf3">
           Press
         </Link>
-        <Link href='/contact'>Contact Us</Link>
-        <Link href='https://github.com/oslabs-beta/spyglass' legacyBehavior>
+        <Link href="/contact">Contact Us</Link>
+        <Link href="https://github.com/oslabs-beta/spyglass" legacyBehavior>
           <a
-            className='github-button'
-            data-show-count='true'
-            data-size='large'
-            aria-label='Star oslabs-beta/spyglass on GitHub'
+            className="github-button"
+            data-show-count="true"
+            data-size="large"
+            aria-label="Star oslabs-beta/spyglass on GitHub"
           >
             Star
           </a>

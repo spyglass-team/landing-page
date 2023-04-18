@@ -9,7 +9,7 @@ const Home = () => {
     <>
       <Head>
         <title>Spyglass | Home </title>
-        <meta name='keywords' content='Kubernetes'></meta>
+        <meta name="keywords" content="Kubernetes"></meta>
       </Head>
       <div className={styles.container}>
         <h1 className={styles.h1}>
@@ -19,7 +19,9 @@ const Home = () => {
           We are a one-stop shop for cluster health metrics, cluster
           visualization, and cost optimization.
         </h1>
-        <Animation />
+        <div className={styles.logo}>
+          <Animation />
+        </div>
       </div>
       <Features />
     </>

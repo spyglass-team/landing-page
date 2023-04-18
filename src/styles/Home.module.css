@@ -1,20 +1,54 @@
 /* styling for container of home page*/
 .container {
-    min-height: 100vh;
-    padding: 0 10rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  min-height: 100vh;
+  padding: 0 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .h1 {
-    color: white;
-    width: 70%;
-    font-size: 35px;
+  color: white;
+  width: 70%;
+  /* font-size: 35px; */
+  font-size: 3vw;
 }
 
 .h1 span {
-    color: #0074d9;
-    width: 70%;
-    font-size: 55px;
+  color: #0074d9;
+  width: 70%;
+  /* font-size: 55px; */
+  font-size: 3.5vw;
+}
+.logo img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+@media only screen and (max-width: 850px) {
+  .container {
+    width: 100%;
+    padding: 2rem 3rem;
+    flex-direction: column-reverse;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+  }
+  .h1 {
+    width: 100%;
+    font-size: 1.75rem;
+    text-align: center;
+  }
+  .h1 span {
+    width: 100%;
+    font-size: 1.75rem;
+  }
+  .logo {
+    text-align: center;
+  }
+  .logo img {
+    width: 75%;
+    max-width: 300px;
+    height: auto;
+  }
 }

@@ -14,10 +14,10 @@ const Features = () => {
         <h2 className={styles.h2}></h2>
         <Image
           className={styles.gif}
-          src='/demo-gifs/local-cluster-metrics.gif'
-          alt='local-cluster-metrics-gif'
-          width='700'
-          height='350'
+          src="/demo-gifs/local-cluster-metrics.gif"
+          alt="local-cluster-metrics-gif"
+          width="700"
+          height="350"
         />
       </div>
       {/* cloud cluster metrics */}
@@ -43,10 +43,10 @@ const Features = () => {
         </h1>
         <Image
           className={styles.gif}
-          src='/demo-gifs/cost-analysis.gif'
-          alt='cost-analysis-gif'
-          width='700'
-          height='350'
+          src="/demo-gifs/cost-analysis.gif"
+          alt="cost-analysis-gif"
+          width="700"
+          height="350"
         />
       </div>
       {/* cluster visualization */}
@@ -57,10 +57,10 @@ const Features = () => {
         </h1>
         <Image
           className={styles.gif}
-          src='/demo-gifs/visualizer.gif'
-          alt='cluster-visualizer-gif'
-          width='700'
-          height='350'
+          src="/demo-gifs/visualizer.gif"
+          alt="cluster-visualizer-gif"
+          width="700"
+          height="350"
         />
       </div>
     </div>
