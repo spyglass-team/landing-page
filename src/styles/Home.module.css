@@ -26,17 +26,29 @@
   height: auto;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 850px) {
   .container {
-    width: 150%;
-    padding: 0 3rem;
+    width: 100%;
+    padding: 2rem 3rem;
+    flex-direction: column-reverse;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
   }
   .h1 {
     width: 100%;
-    font-size: 2rem;
+    font-size: 1.75rem;
+    text-align: center;
   }
   .h1 span {
     width: 100%;
-    font-size: 2rem;
+    font-size: 1.75rem;
+  }
+  .logo {
+    text-align: center;
+  }
+  .logo img {
+    width: 75%;
+    max-width: 300px;
+    height: auto;
   }
 }

@@ -4,9 +4,11 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+
 body {
   background-color: #1a1a1a;
 }
+
 /* navbar styling */
 .navbar {
   padding: 0.5rem 1rem;
@@ -39,7 +41,7 @@ body {
   text-align: center;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 850px) {
   .navbar {
     width: 100%;
     flex-direction: column;
@@ -53,6 +55,6 @@ body {
     height: auto;
   }
   .footer {
-    width: 150%;
+    width: 100%;
   }
 }
